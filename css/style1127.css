@@ -106,7 +106,7 @@ bolckquote {
 
 .caption-btn {
     display: block;
-    font-size: 16px;
+    font-size: 20px;
     width: 100px;
     height: 50px;
     line-height: 50px;
@@ -115,10 +115,11 @@ bolckquote {
     border-radius: 5px;
     background-color: #8acc76;
     color: #d6546d;
+    margin: 0 auto;
 }
 
 .caption-btn:link {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .caption-btn:visited {
@@ -133,27 +134,8 @@ bolckquote {
     color: blue;
 }
 
-.imageBlur {
-    filter: blur(8px);
-    // Browser Specific
-    -webkit-filter: blur(8px);
-    -moz-filter: blur(8px);
-    -o-filter: blur(8px);
-    -ms-filter: blur(8px);
-    background-repeat: no-repeat;
-}
-
-p,
-address {
-    color: blue;
-    font-size: 1.1em;
-}
-
 ul {
-    position: absolute;
-    left: .1em;
-    top: 8em;
-    font-size: 1.2em;
-    line-height: 2em;
-    text-decoration: none;
+    position: relative;
+    top: 20px;
+    line-height: 30px;
 }

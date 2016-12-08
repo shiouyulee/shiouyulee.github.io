@@ -33,3 +33,20 @@ header {
 /*
 常用圖片設定
 */
+
+
+/*
+去除連結的底線
+*/
+
+a {
+    text-decoration: none;
+}
+
+
+/*
+remove bullet points from <ul>
+li {
+    list-style-type: none;
+}
+*/

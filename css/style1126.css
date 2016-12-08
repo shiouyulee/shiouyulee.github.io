@@ -1,0 +1,92 @@
+/*
+Header
+*/
+
+header {
+    color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://source.unsplash.com/400x200?nature);
+    background-repeat: no-repeat;
+}
+
+
+/*
+引文
+*/
+
+blockquote {
+    width: 300px;
+    background-image: url(../images/icon-quote.png);
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    background-position: right bottom;
+}
+
+
+/*
+縮圖區塊設定
+*/
+
+.thumbnail {
+    width: calc(25% - 20px);
+    float: left;
+    margin: 10px;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+.caption-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.caption-body {
+    line-height: 1.5;
+}
+
+.caption-btn {
+    text-decoration: none;
+}
+
+.caption-btn {
+    display: block;
+    font-size: 16px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #676D79;
+    border-radius: 5px;
+}
+
+.caption-btn:link {
+    color: white;
+    background-color: #676D79;
+}
+
+.caption-btn:visited {
+    color: white;
+    background-color: #676D79;
+}
+
+.caption-btn:hover {
+    color: white;
+    background-color: #676D79;
+}
+
+.caption-btn:active {
+    color: white;
+    background-color: #676D79;
+}
+
+ul {
+    position: relative;
+    top: 20px;
+    line-height: 30px;
+}

@@ -5,7 +5,6 @@ body
 body {
     background-color: lightblue;
     background-size: cover;
-    /*隨著browser大小自動調整*/
 }
 
 
@@ -18,8 +17,6 @@ header {
     color: rgba(229, 229, 18, 0.48);
     font-style: oblique;
     background-image: url(https://source.unsplash.com/400x200?nature);
-    /*    background-size: 100%; 圖片在縮小時會留白*/
-    /*    background-size: cover; 圖片在縮小時會只會看到局部*/
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 15px;
@@ -74,13 +71,9 @@ bolckquote {
 
 .thumbnail-img:hover {
     -webkit-transform: scale(1.08);
-    /* Safari and Chrome */
     -moz-transform: scale(1.08);
-    /* Firefox */
     -ms-transform: scale(1.08);
-    /* IE 9 */
     -o-transform: scale(1.08);
-    /* Opera */
     transform: scale(1.08);
 }
 
@@ -90,11 +83,6 @@ bolckquote {
     font-weight: 900;
     text-align: center;
 }
-
-
-/*
-設定數值若無單位,則為倍數
-*/
 
 .caption-body {
     line-height: 30px;

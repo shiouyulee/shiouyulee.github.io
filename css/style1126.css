@@ -16,12 +16,16 @@ header {
 */
 
 blockquote {
-    width: 300px;
-    background-image: url(../images/icon-quote.png);
+    width: 700px;
+    background-image: url(../images/quote.png);
     background-size: 30px 30px;
     background-repeat: no-repeat;
     padding-left: 40px;
-    background-position: right bottom;
+    background-position: left top;
+}
+
+.imgQuote {
+    width: 30px;
 }
 
 

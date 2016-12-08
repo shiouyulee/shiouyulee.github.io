@@ -1,0 +1,108 @@
+/*color table==>on existed color "Ctrl+e" */
+
+
+/*
+Header
+*/
+
+header {
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    background-color: aquamarine
+}
+
+div>p {
+    background-color: gold
+}
+
+
+/*
+自訂圖片模組
+*/
+
+.thumbnail {
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+
+/*
+同一層中的隔壁項
+*/
+
+
+/*
+h1+p {
+    background-color: #ddd;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}*/
+
+
+/*
+同一層中所有項
+*/
+
+
+/*
+h1~p {
+    background-color: #ddd;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+*/
+
+tr:nth-child(2n+1) {
+    background-color: #ddd;
+}
+
+table,
+td {
+    border: 1px solid;
+}
+
+p:first-of-type {
+    padding: 2px solid red;
+}
+
+p:nth-of-type(3n+1) {
+    padding: 2px solid red;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background: url: ();
+    background-position: -120px -120px;
+}
+
+li>a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 60px;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+li>a[href$=".pdf"] {
+    background-image: url(../images/pdf.png);
+}
+
+li>a[href$=".docx"] {
+    background-image: url(../images/docx.png);
+}
+
+li {
+    list-style-type: none;
+}

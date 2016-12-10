@@ -24,37 +24,6 @@ header {
 
 
 /*
-sub-title
-*/
-
-.sub-title {
-    background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
-    /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
-    /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
-    /* For Fx 3.6 to 15 */
-    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    /* Standard syntax (must be last) */
-    color: aqua;
-}
-
-
-/*
-引文
-*/
-
-bolckquote {
-    width: 300px;
-    background-image: url(../images/quote.png);
-    background-size: 30px 30px;
-    background-repeat: no-repeat;
-    padding-left: 40px;
-    background-position: right bottom;
-}
-
-
-/*
 縮圖區塊設定
 */
 

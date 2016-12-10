@@ -1,0 +1,172 @@
+.iphone-body {
+    position: relative;
+    width: 400px;
+    height: 810px;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    background-color: #ddd;
+    background-repeat: no-repeat;
+    border-radius: 56px;
+    margin: 0 auto;
+}
+
+.iphone-frame {
+    position: absolute;
+    width: 385px;
+    height: 798px;
+    top: 4px;
+    left: 6px;
+    background: white;
+    border: 5px solid;
+    border-color: ghostwhite;
+    border-radius: 56px;
+}
+
+.front-camera {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 41px;
+    left: 125px;
+    background: black;
+    border-radius: 50%;
+}
+
+.earphone {
+    position: absolute;
+    width: 75px;
+    height: 6px;
+    top: 45px;
+    left: 162px;
+    background: black;
+    border-radius: 5px;
+}
+
+.sensor {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 21px;
+    left: 195px;
+    background: black;
+    border-radius: 50%;
+}
+
+.antenna-1 {
+    position: absolute;
+    width: 5px;
+    height: 14px;
+    top: 57px;
+    left: 0px;
+    background: #FCFCFC;
+}
+
+.antenna-2 {
+    position: absolute;
+    width: 5px;
+    height: 14px;
+    top: 57px;
+    left: 392px;
+    background: #FCFCFC;
+}
+
+.power-btn {
+    position: absolute;
+    width: 3px;
+    height: 47px;
+    top: 157px;
+    left: 399px;
+    background: #FFECEC;
+    border: 1px solid;
+    border-color: #0dFBFB;
+    border-radius: 10px;
+}
+
+.mute-btn {
+    position: absolute;
+    width: 2px;
+    height: 27px;
+    top: 96px;
+    left: -1px;
+    background: #FFECEC;
+    border: 1px solid;
+    border-color: #FFF7FB;
+    border-radius: 10px;
+}
+
+.antenna-3 {
+    position: absolute;
+    width: 5px;
+    height: 14px;
+    top: 740px;
+    left: 0px;
+    background: #FCFCFC;
+}
+
+.antenna-4 {
+    position: absolute;
+    width: 5px;
+    height: 14px;
+    top: 740px;
+    left: 392px;
+    background: #FCFCFC;
+}
+
+.volume-up-btn {
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    top: 156px;
+    left: -1px;
+    background: #FFECEC;
+    border: 1px solid;
+    border-color: #FFF7FB;
+    border-radius: 10px;
+}
+
+.volume-down-btn {
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    top: 221px;
+    left: -1px;
+    background: #FFECEC;
+    border: 1px solid;
+    border-color: #FFF7FB;
+    border-radius: 10px;
+}
+
+.home-btn {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 734px;
+    left: 173px;
+    border-radius: 50%;
+    background: #525254;
+    background: -moz-linear-gradient(-45deg, #525254 0%, #ebedee 75%, #5d5e60 86%);
+    background: -webkit-linear-gradient(-45deg, #525254 0%, #ebedee 75%, #5d5e60 86%);
+    background: linear-gradient(135deg, #525254 0%, #ebedee 75%, #5d5e60 86%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#525254', endColorstr='#5d5e60', GradientType=1);
+}
+
+.home-btn-inside {
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    top: 736px;
+    left: 175px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.display-screen {
+    position: absolute;
+    width: 352px;
+    height: 625px;
+    top: 90px;
+    left: 22px;
+    border: 2px solid;
+    border-color: #4F4F4F;
+    background: #000000;
+}

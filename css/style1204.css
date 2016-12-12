@@ -1,3 +1,7 @@
+/*
+iphone設定
+*/
+
 .iphone-body {
     position: relative;
     width: 400px;
@@ -168,5 +172,114 @@
     left: 22px;
     border: 2px solid;
     border-color: #4F4F4F;
-    background: #000000;
+    background: rgba(99, 39, 196, 0.45);
+    overflow-y: auto;
+}
+
+.display-screen ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/*
+選單設定
+*/
+
+.menu-list li {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 8px 0;
+    background: #606060;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-list li:hover {
+    background: lightgreen;
+}
+
+.menu-list li ul {
+    position: absolute;
+    top: 29px;
+    left: 30px;
+    display: none;
+}
+
+.menu-list li:hover>ul {
+    display: block;
+}
+
+.menu-list li ul li {
+    float: none;
+    width: auto;
+    padding: 8px 8px;
+    border: 1px solid white;
+}
+
+
+/*
+縮圖區塊設定
+*/
+
+.thumbnail {
+    width: calc(33% - 20px);
+    float: left;
+    margin: 10px;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+
+/*文字設定*/
+
+.caption-title {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.caption-body {
+    line-height: 1.5;
+    font-size: 11px;
+}
+
+.caption-btn {
+    text-decoration: none;
+}
+
+.caption-btn {
+    display: block;
+    font-size: 13px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid rgba(54, 162, 83, 0.95);
+    background-color: #676D79;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.caption-btn:link {
+    color: white;
+}
+
+.caption-btn:visited {
+    color: black;
+}
+
+.caption-btn:hover {
+    color: black;
+}
+
+.caption-btn:active {
+    color: black;
 }

@@ -8,9 +8,14 @@
     font-family: arial, sans-serif, monospace;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 /*
-所有標籤基本設定
+所有標籤基本設定(Reset)
 */
 
 h1,

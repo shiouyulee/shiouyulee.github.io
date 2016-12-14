@@ -283,3 +283,13 @@ iphone設定
 .caption-btn:active {
     color: black;
 }
+
+body>li {
+    list-style-type: none;
+}
+
+ul>li>a {
+    position: relative;
+    line-height: 50px;
+    text-align: center;
+}

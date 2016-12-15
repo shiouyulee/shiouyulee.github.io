@@ -290,6 +290,16 @@ body>li {
 
 ul>li>a {
     position: relative;
-    line-height: 50px;
     text-align: center;
+}
+
+ul li {
+    width: calc (100% / 8);
+    float: left;
+    padding: 8px;
+    margin-left: 8px;
+    list-style-type: none;
+    background: lightgreen;
+    border-radius: 10px;
+    font-size: 1em;
 }

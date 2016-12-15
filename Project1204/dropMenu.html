@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DropDown Menu</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="../css/dropMenu.css">
+</head>
+
+<body>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" id="btn1">Button
+            <!--按鈕旁邊小圖示-->
+            <span class="caret"></span>
+        </button>
+        <button onclick="myFunction()" class="dropbtn" id="btn2">Button
+            <!--按鈕旁邊小圖示-->
+            <span class="caret"></span>
+        </button>
+        <button onclick="myFunction()" class="dropbtn" id="btn3">Button
+            <!--按鈕旁邊小圖示-->
+            <span class="caret"></span>
+        </button>
+        <button onclick="myFunction()" class="dropbtn" id="btn4">Button
+            <!--按鈕旁邊小圖示-->
+            <span class="caret"></span>
+        </button>
+        <button onclick="myFunction()" class="dropbtn" id="btn5">Button
+            <!--按鈕旁邊小圖示-->
+            <span class="caret"></span>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -82,7 +82,7 @@ iphone設定
     left: 399px;
     background: #FFECEC;
     border: 1px solid;
-    border-color: #0dFBFB;
+    border-color: #FFF7FB;
     border-radius: 10px;
 }
 
@@ -293,13 +293,13 @@ ul>li>a {
     text-align: center;
 }
 
-ul li {
+body>ul li {
     width: calc (100% / 8);
     float: left;
     padding: 8px;
     margin-left: 8px;
-    list-style-type: none;
-    background: lightgreen;
+    margin-top: 4px;    list-style-type: none;
+    background: rgba(72, 237, 212, 0.67);
     border-radius: 10px;
-    font-size: 1em;
+    font-size: .75em;
 }

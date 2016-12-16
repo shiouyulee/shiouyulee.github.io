@@ -12,24 +12,19 @@
 
 <body>
     <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn" id="btn1">Button
-            <!--按鈕旁邊小圖示-->
+        <button onclick="myFunction()" class="dropbtn" id="btn1">Button 1
             <span class="caret"></span>
         </button>
-        <button onclick="myFunction()" class="dropbtn" id="btn2">Button
-            <!--按鈕旁邊小圖示-->
+        <button onclick="myFunction()" class="dropbtn" id="btn2">Button 2
             <span class="caret"></span>
         </button>
-        <button onclick="myFunction()" class="dropbtn" id="btn3">Button
-            <!--按鈕旁邊小圖示-->
+        <button onclick="myFunction()" class="dropbtn" id="btn3">Button 3
             <span class="caret"></span>
         </button>
-        <button onclick="myFunction()" class="dropbtn" id="btn4">Button
-            <!--按鈕旁邊小圖示-->
+        <button onclick="myFunction()" class="dropbtn" id="btn4">Button 4
             <span class="caret"></span>
         </button>
-        <button onclick="myFunction()" class="dropbtn" id="btn5">Button
-            <!--按鈕旁邊小圖示-->
+        <button onclick="myFunction()" class="dropbtn" id="btn5">Button 5
             <span class="caret"></span>
         </button>
         <div id="myDropdown" class="dropdown-content">
@@ -38,13 +33,13 @@
             <a href="#contact">Contact</a>
         </div>
     </div>
+    <!-- TODO 子選單的出現位置-->
     <script>
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
         window.onclick = function(event) {
             if (!event.target.matches('.dropbtn')) {
-
                 var dropdowns = document.getElementsByClassName("dropdown-content");
                 var i;
                 for (i = 0; i < dropdowns.length; i++) {

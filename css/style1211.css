@@ -334,3 +334,14 @@ footer {
         width: calc(100% * 12 / 12);
     }
 }
+
+.container .footer ul li {
+    float: left;
+    padding: 8px;
+    margin-left: 8px;
+    margin-top: 4px;
+    list-style-type: none;
+    background: rgba(72, 237, 212, 0.67);
+    border-radius: 10px;
+    font-size: .75em;
+}

@@ -88,9 +88,3 @@ blockquote {
     color: white;
     background-color: #676D79;
 }
-
-ul {
-    position: relative;
-    top: 20px;
-    line-height: 30px;
-}

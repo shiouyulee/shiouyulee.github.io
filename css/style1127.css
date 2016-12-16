@@ -90,9 +90,3 @@ header {
 .caption-btn:active {
     color: blue;
 }
-
-ul {
-    position: relative;
-    top: 20px;
-    line-height: 30px;
-}

@@ -45,3 +45,8 @@ sub-title
 h3 {
     color: orange;
 }
+
+.thumbnail.gray>a {
+    position: absolute;
+    z-index: 9999;
+}
